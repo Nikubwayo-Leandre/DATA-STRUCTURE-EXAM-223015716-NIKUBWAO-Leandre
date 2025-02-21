@@ -96,38 +96,4 @@ Code blocks are enclosed in curly braces {}.
 
 Indentation and spacing are not mandatory but improve readability.
 
-Compilation and Execution
 
-C++ programs must be compiled before execution.
-
-The compiler translates the human-readable code into machine-readable binary code.
-
-After compilation, the program can be executed to produce the desired output.
-
-Error Handling
-
-Syntax errors: Mistakes in the code structure (e.g., missing semicolons, unmatched braces).
-
-Runtime errors: Errors that occur during program execution (e.g., division by zero).
-
-Logical errors: Mistakes in the program logic that produce incorrect results.
-
-Example Program
-
-cpp
-Copy
-#include <iostream>
-using namespace std;
-
-int main() {
-    int number;
-    cout << "Enter a number: ";
-    cin >> number;
-    cout << "You entered: " << number << endl;
-    return 0;
-}
-This program prompts the user to enter a number, reads the input, and displays it back.
-
-By understanding these key points, you can write, analyze, and debug basic C++ programs effectively.
-
-New chat
