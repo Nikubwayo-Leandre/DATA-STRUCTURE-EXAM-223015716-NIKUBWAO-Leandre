@@ -1,5 +1,6 @@
-Assignment Description of Codes
-#include <iostream>: Including the iostream Library
+# Assignment Description of Codes
+
+# #include <iostream>: Including the iostream Library
 
 This line is a preprocessor directive that includes the iostream library in the program.
 
@@ -7,7 +8,7 @@ The iostream library provides functionality for input and output operations, suc
 
 Without this line, the program cannot perform basic input/output operations.
 
-using namespace std;: Using the Standard Namespace
+# using namespace std;: Using the Standard Namespace
 
 This line tells the compiler to use the std (standard) namespace, which contains standard C++ library components like cout, cin, endl, etc.
 
@@ -17,7 +18,7 @@ By using using namespace std;, you can directly use cout and cin instead of writ
 
 Note: In larger programs, it’s often better to avoid using namespace std; and instead use std:: explicitly to prevent potential naming conflicts.
 
-int main(): The Main Function
+# int main(): The Main Function
 
 Every C++ program must have a main() function. It is the entry point of the program, meaning execution starts here.
 
@@ -27,7 +28,7 @@ The parentheses () after main indicate that it is a function.
 
 The body of the main() function is enclosed in curly braces {}.
 
-cout <<: Displaying Output with cout
+# cout <<: Displaying Output with cout
 
 cout (pronounced "see-out") is an object of the ostream class, defined in the iostream library.
 
@@ -41,7 +42,7 @@ Example: cout << "Hello, World!" << endl;
 
 endl (end line) inserts a newline character and flushes the output buffer.
 
-cin >> ...;: Getting Input with cin
+# cin >> ...;: Getting Input with cin
 
 cin (pronounced "see-in") is an object of the istream class, defined in the iostream library.
 
@@ -55,7 +56,7 @@ The input value is stored in variableName.
 
 Ensure the variable type matches the input type (e.g., int, float, string).
 
-return 0;: Returning from main
+# return 0;: Returning from main
 
 The return 0; statement at the end of the main() function indicates that the program has executed successfully.
 
@@ -63,8 +64,9 @@ By convention, a return value of 0 signifies success, while non-zero values indi
 
 This value is returned to the operating system.
 
-Additional Key Points
-Comments in C++
+# Additional Key Points
+
+# Comments in C++
 
 Comments are used to explain code and improve readability. They are ignored by the compiler.
 
@@ -72,7 +74,7 @@ Single-line comments: // This is a single-line comment
 
 Multi-line comments: /* This is a multi-line comment */
 
-Variables and Data Types
+# Variables and Data Types
 
 Variables are used to store data in memory.
 
@@ -88,7 +90,7 @@ string for text (e.g., string name = "Alice";)
 
 Variables must be declared before use.
 
-Basic Syntax Rules
+# Basic Syntax Rules
 
 Each statement in C++ ends with a semicolon (;).
 
